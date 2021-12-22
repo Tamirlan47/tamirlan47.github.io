@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Медицинский сайт</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header>
+    <div id="logo" onclick="slowScroll('#top')">
+      <span>Медицинский сайт</span>
+    </div>
+    <div id="about">
+      <a href="#" title="Возможности" onclick="slowScroll('#main')">О нас </a>
+      <a href="#" onclick="slowScroll('#overview')" title="Преимущества">Наши услуги</a>
+      <a href="#" onclick="slowScroll('#contacts')" title="Контакты">Контакты</a>
+      <a href="#" onclick="slowScroll('#faq')" title="Ответы на вопросы">FAQ</a>
+    </div>
+  </header>
+
+  <div id="top">
+    <h1>Запишитесь на прием</h1>
+    <h3>к нашим специалистам</h3>
+  </div>
+
+  <div id="main">
+    <div class="intro">
+      <h2>Ментальное здоровье</h2>
+      <span>У нас вы найдете множество услуг психологической помощи. </span>
+    </div>
+    <div class="text">
+      <span> Профессиональный подход к проблеме клиента.
+      Бесплатная психологическая консультация.
+    Вызов специалиста на дом.
+  Групповые занятия с психологом. Широкая база специалистов.Индивидуальный подбор.Проверенные психотерапевты</div>
+  </div>
+
+  <div id="overview">
+    <h2>Услуги</h2>
+    <h4>Ваше здоровье - наша ответственность</h4>
+
+    <div class="img">
+  		<img src="https://psiholog-panova.ru/wp-content/uploads/2020/11/gruppovaya-terapija-krasnoyarsk.jpg" alt="">
+  		<span>Групповая терапия</span>
+  	</div>
+  	<div class="img">
+  		<img src="https://organicwoman.ru/wp-content/uploads/2017/01/Depositphotos_111574432_m-2015.jpg" alt="">
+  		<span>Детский психолог</span>
+  	</div>
+  	<div class="img">
+  		<img src="https://i.siteapi.org/TZIxBK1218ARbZMl3dREuvhzpLo=/fit-in/1400x1000/center/top/s.siteapi.org/596efcf47164ff2.ru/img/ckwyzf6tl88w4g8g4sgc88k040cw04" alt="">
+  		<span>Депрессия</span>
+  	</div>
+  	<div class="img">
+  		<img src="https://protoxin.ru/wp-content/uploads/2019/09/psihologicheskaya-zavisimost.jpg" alt="">
+  		<span>Зависимость</span>
+  	</div>
+  </div>
+
+  <div id="contacts">
+    <center><h5>Обратная связь</h5></center>
+    <form id="form_input">
+      <label for="name">Имя <span>*</span></label><br>
+      <input type="text" placeholder="Введите имя" name="name" id="name"><br>
+      <label for="email">Ваша почта <span>*</span></label><br>
+			<input type="email" placeholder="Введите email" name="email" id="email"><br>
+			<label for="message">Сообщение <span>*</span></label><br>
+			<textarea placeholder="Введите ваше сообщение" name="message" id="message"></textarea><br>
+			<div id="mess_send" class="btn">Отправить</div>
+    </form>
+  </div>
+
+  <div id="faq">
+    <div>
+      <span class="title">Оплата</span><br>
+      <span class="heading">Как будет проходит оплата?</span>
+      <p>Оплата является подтверждением сессии с Вашей стороны и осуществляется на сайте с помощью kaspi.kz</p>
+      <span class="heading">Сколько стоит консультация?</span>
+      <p>Обсудить условия консультации с экспертом вы можете бесплатно. Оплачивайте консультацию только после того, как убедитесь в компетентности эксперта.
+
+Эксперты сами определяют стоимость консультации и условия ее проведения. Рекомендуем условия и сроки уточнять до оплаты.
+
+Некоторые эксперты консультируют бесплатно, но если консультация эксперта Вам была полезна, Вы можете отблагодарить его.</p>
+      <span class="heading">А есть ли комиссия при пополнении счета?</span>
+      <p>При осуществлении пополнения физическим лицом на сайте сервисом не взимается комиссия с плательщика.
+ Зависит от типа услуг и оборотов, так же дополнительных сервисов, которые предоставляются маркетплейсом и привлекаемыми им сервисами.</p>
+    </div>
+    <div>
+      <span class="title">Информация</span><br>
+      <span class="heading">Что входит в услуги сервиса</span>
+      <p>Первичная консультация психолога. Составление психодиагностики. Социальная адаптация в новой обстановке. Беседы, выслушивание, мотивация к активности. Проведение индивидуальных занятий по личным проблемам.</p>
+      <span class="heading">Бесплатная консультация</span>
+      <p>Получите первую 20-минутную консультацию с психологом бесплатно. Психолограм не списывает с вас денежные средства. Дальнейшие консультации оплачиваются удобным способом напрямую специалисту по предварительной договоренности.</p>
+      <span class="heading">Не нашли ответа на ваш вопрос?</span>
+      <p>Если вы не нашли ответ на ваш вопрос, просто свяжитесь с нами: tamirlan.bizhanov@narxoz.kz </p>
+    </div>
+    <div>
+      <span class="title">Гарантии</span><br>
+      <span class="heading">Какие есть гарантии?</span>
+      <p>100% гарантия возврата средств. Мы вам гарантируем более 1000 профессиональных экспертов</p>
+      <span class="heading"> Как выбрать психолога?</span>
+      <p>Изучите понравившиеся анкеты и прочитайте отзывы предыдущих клиентов — они помогают понять, подходит ли вам специалист по профессиональным и личным качествам.</p>
+      <span class="heading">Сколько длится сессия с психологом?</span>
+      <p>Продолжительность сессии психолог устанавливает сам, но она должна быть не менее 50 минут. При обрыве связи — время на восстановление добавляется. Объём переписки (чат с психологом) составляет 60 минут переписки в реальном времени; при обрыве связи — время на восстановление добавляется.</p>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    function slowScroll(id) {
+      $('html, body').animate({
+        scrollTop: $(id).offset().top
+      }, 500);
+    }
+
+    $(document).on("scroll", function () {
+      if($(window).scrollTop() === 0)
+        $("header").removeClass("fixed");
+      else
+        $("header").attr("class", "fixed");
+    });
+  </script>
+
+<footer>
+  <p>E-Mail: tamirlan.bizhanov@narxoz.kz</p>
+
+  <p> Номер телефона : 87752323280 </p>
+  <p>Специальность Маркетинг, 1 курс</p>
+  <p class="copyright"> Copyright by Бижанов Тамирлан</p>
+</footer>
+
+
+</body>
+</html>
